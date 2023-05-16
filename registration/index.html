@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta name="viewport"content="width=device-width,initial-scale=1">
+<link rel="stylesheet"  type="text/css"  href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<h2 ALIGN="CENTER">Registration form</h2>
+<form  action="insert.php" method="post" name="name" enctype="multipart/form-data"  onsubmit="return (validate());">
+<table border="0"align="center">
+<tbody>
+
+<tr>
+<td><label for="id">Id:</label></td>
+<td><input  id="id" maxlength="50" size="50" name="id" type="text" placeholder="Enter your id.."/></td>
+</tr>
+
+<tr>
+<td><label for="name">Name:</label></td>
+<td><input id="name" maxlength="50" size="50" name="name" type="text" placeholder="Enter your name.."/></td>
+</tr>
+
+<tr>
+<td><label for="Gender">Gender:</label></td>
+<td><select name="gender" id="Gender" maxlength="50"
+<option value="Male">MALE</option>
+<option value="Female">FEMALE</option>
+</select>
+</td>
+</tr>
+
+
+<tr>
+<td><label for="DOB">DOB:</label></td>
+<td><input id="DOB" maxlength="50" size="50" name="dob" type="Date" placeholder="Enter your DOB.."/></td>
+</tr>
+
+
+<tr>
+<td><label for="course">Choose Course:</label></td>
+<td><select id="course" name="course">
+<option value="BCA">BCA</option>
+<option value="MCA">MCA</option>
+<option value="O LEVEL">O LEVEL</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><label for="branch">Branch:</label></td>
+<td><input id="branch" maxlength="50" size="50" name="branch" type="text" placeholder="Enter your branch.."/></td>
+</tr>
+
+<tr>
+<td><label for="rollno">Rollno:</label></td>
+<td><input id="rollno" maxlength="50" size="50" name="rollno" type="text" placeholder="Enter your roll no.."/></td>
+</tr>
+
+<tr>
+<td><label for="email">Email_Address:</label></td>
+<td><input id="email" maxlength="50" size="50" name="email" type="text" placeholder="Enter your Email Address.."/></td>
+</tr>
+
+<tr>
+<td><label for="username">User_Name:</label></td>
+<td><input id="username"maxlength="50" size="50" name="username" type="text" placeholder="Enter your Username.."/></td>
+</tr>
+
+<tr>
+    <td><label for="aboutus">About Us:</label></td>
+    <td>
+        <textarea name="aboutus" maxlength="50" style="width: 500px;" align="center"></textarea>
+    </td>
+</tr>
+
+<tr>
+<td><label for="password">Password:</label></td>
+<td><input id="password" maxlength="50" size="50" name="password"  type="text" placeholder="Enter your password.."/></td>
+</tr>
+
+<tr>
+<td><label for="username">Upload Photo:</label></td>
+<td><input id=""maxlength="50" size="50" name="image" type="file"/></td>
+</tr>
+
+<tr>
+<td align="right"><input name="submit" type="Submit"value="onsubmit"/></td>
+</tr>
+
+</tbody>
+</table>
+</form>
+</html>
+
+
